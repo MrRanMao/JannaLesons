@@ -1,0 +1,4 @@
+env/lib/python3.10/site-packages/telebot/__init__.py
+env
+**/**.pyc
+__init__.py

@@ -1,0 +1,23 @@
+version: "3.9"
+   
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+
+  bot:
+    build: .
+    command: python manage.py telegram_bot
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: "django"
+      POSTGRES_USER: "django"
+      POSTGRES_PASSWORD: "django"
