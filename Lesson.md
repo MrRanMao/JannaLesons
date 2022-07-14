@@ -40,3 +40,17 @@
  1222  pip3 freeze > requirements.txt
  1223  pip3 install psycopg2-binary
  1224  pip3 freeze > requirements.txt
+
+  1675  docker-compose up -d
+ 1676  netstat -lp
+ 1677  docker ps
+ 1678  docker-compose down
+ 1679  docker-compose build
+ 1680  docker-compose up -d
+ 1681  docker ps
+ 1682  nano Dockerfile
+ 1683  docker exec -ti 97b1f4ba0f5b bash
+ 1684  docker ps
+ 1685  docker-compose build
+ 1686  docker-compose up -d
+ 1687  docker-compose down
