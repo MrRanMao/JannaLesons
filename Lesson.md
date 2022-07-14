@@ -1,6 +1,9 @@
 # Janna Lessons
 
+![alt text](photo_2022-07-14_14-57-25.jpg "Тайтл")
 
+
+```
  1186  cd JannaLesons
  1187  python3 -m venv ./env
  1188  source ./env/bin/activate
@@ -54,3 +57,4 @@
  1685  docker-compose build
  1686  docker-compose up -d
  1687  docker-compose down
+```
